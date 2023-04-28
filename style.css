@@ -1,0 +1,86 @@
+/*
+    el div es el cuadro principal
+*/
+div{
+    display: flex;
+    background: #414141;
+    border: 2xp #0273f5;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #000;
+    transition: .5s ease;
+    padding: 20px;
+    padding-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/*
+    el mismo div con le hover para que cuando pases el maus aga animacion
+*/
+div:hover{
+    box-shadow: 0 0 30px #0273f5;
+    padding: 30px;
+    padding-bottom: 60px;
+}
+/*
+    el color de la pagina con un padding para las margenes
+*/
+body{
+    background-color: #2c2c2c;
+    padding: 50px;
+}
+/*
+    titulo principal con la luz que seria el text-shadow
+*/
+h1{
+    font-size: 4.0em;
+    text-align: center;
+    color: #0273f5;
+    text-shadow: 0 0 15px #0273f5;
+}
+h2{
+    text-align: center;
+    color: #ad7979;
+    text-shadow: 0 0 10px #fff;
+}
+/*
+    las imagenes
+*/
+.imagen{
+    margin-top: 20px;
+    padding: 0;
+    height: 400px;
+    width: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.imagen img{
+    height: 100%;
+    width: 100%;
+}
+.imagen p{
+    position: absolute;
+    color: #fff;
+    transform: scale(0);
+}
+.imagen:hover p{
+    font-size: 1.5em;
+    position: relative;
+    transform: scale(1);
+}
+button{
+    margin-top: 20px;
+    color: #fff;
+    height: 40px;
+    width: 150px;
+    background: #0273f5;
+    border-radius: 5px;
+    border: 2px #000;
+    transition: .5s ease;
+}
+button:hover{
+    background: #000;
+}
+a{
+    text-decoration: none;
+}
